@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iheb's portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ME.png" alt="Med Iheb Ben Dhaou" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Iheb ben dhaou </h1>
+
+          <p class="title">Web developer / Mobile developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">moahmediheb.bendhaou@esprit.tn</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+216 28111530</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">September 06, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sidi fraj, Arirana, Tunisia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Iheb Ben Dhaou, a software engineer and web developer based in La Soukra, Ariana. With a strong background in programming and development, 
+            I specialize in creating functional and user-friendly applications that are both innovative and efficient.
+
+          </p>
+
+          <p>
+            My job is to develop intuitive and attractive software solutions that meet your needs. 
+            I ensure every project I work on is not only technically robust but also visually appealing and easy to use. 
+            My aim is to effectively communicate your message and identity through creative and innovative designs. I have worked on various projects,
+             delivering web designs for some local brands.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chaher dridi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Iheb was hired to develop our online store management system. We were very pleased with the work done. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr Soufia </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Iheb worked on our ambulance center management application. We were very pleased with the results. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Iheb developed a comprehensive web application for our company. We were very pleased with his work.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Iheb was hired to design and develop our new website. We were extremely satisfied with his work.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+               
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ESPRIT: Ecole Supérieure Privée d'Ingénierie et de Technologies</h4>
+              <span>2021 — 2024</span>
+              <p class="timeline-text">
+                Pursuing a degree in Computer Engineering, focusing on software development and web technologies. Gained
+                comprehensive knowledge in programming languages and frameworks.
+              </p>
+            </li>
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Lycée Soukra</h4>
+              <span>2021</span>
+              <p class="timeline-text">
+                Completed Baccalauréat in Computer Science, providing a solid foundation in programming and algorithmic
+                thinking, essential for higher education in engineering.
+              </p>
+            </li>
+          
+          </ol>
+          
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer and Web Developer</h4>
+              <span>2021 — Present</span>
+              <p class="timeline-text">
+                Developing and maintaining web applications, specializing in both frontend and backend technologies. Working with Java, C++, PHP, Symfony, JavaFX, and FlutterFlow to create innovative and user-friendly solutions.
+              </p>
+            </li>
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+              <span>2019 — 2021</span>
+              <p class="timeline-text">
+                Provided web development services to various clients, delivering custom solutions tailored to their business needs. Focused on creating functional and visually appealing websites using HTML, CSS, PHP, and Java.
+              </p>
+            </li>
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IT Intern</h4>
+              <span>2018 — 2019</span>
+              <p class="timeline-text">
+                Gained practical experience in software development and IT support. Assisted in developing internal applications and resolving technical issues, enhancing skills in problem-solving and software engineering.
+              </p>
+            </li>
+          
+          </ol>
+          
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+        
+          <ul class="skills-list content-card">
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML/CSS</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+        
+          </ul>
+        
+        </section>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+      
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+      
+            
+      
+          </ul>
+      
+          <div class="filter-select-box">
+      
+            <button class="filter-select" data-select>
+      
+              <div class="select-value" data-select-value>Select category</div>
+      
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+      
+            </button>
+      
+          </div>
+      
+          <ul class="project-list">
+      
+            <!-- Replace existing projects with your projects -->
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Yumlink" loading="lazy">
+                </figure>
+                <h3 class="project-title">Yumlink</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Ambulance Manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Ambulance Manager</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="PHP Web Project" loading="lazy">
+                </figure>
+                <h3 class="project-title">PHP Web Project</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="Amazigh Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Amazigh Game</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Tunisian Site" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tunisian Site</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="MetaSpark Redesign" loading="lazy">
+                </figure>
+                <h3 class="project-title">MetaSpark Redesign</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="Summary Page" loading="lazy">
+                </figure>
+                <h3 class="project-title">Summary Page</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="Task Manager App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task Manager App</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="Arrival Page" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arrival Page</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Professional Blog</h2>
+        </header>
+      
+        <section class="blog-posts">
+      
+          <ul class="blog-posts-list">
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Exploring the Future of AI in Business" loading="lazy">                   
+
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Technology Trends</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-24">June 24, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Exploring the Future of AI in Business</h3>
+      
+                  <p class="blog-text">
+                    Discover how artificial intelligence is reshaping industries and driving innovation in business strategies.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Enhancing User Experience with Design Thinking" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Design Strategy</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-23">June 23, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Enhancing User Experience with Design Thinking</h3>
+      
+                  <p class="blog-text">
+                    Learn how design thinking principles can be applied to create intuitive and user-friendly digital experiences.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Strategies for Effective Content Marketing in 2024" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Digital Marketing</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-22">June 22, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Strategies for Effective Content Marketing in 2024</h3>
+      
+                  <p class="blog-text">
+                    Explore actionable strategies to enhance your content marketing efforts and achieve measurable results.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="The Impact of Blockchain on Financial Services" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Blockchain</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-21">June 21, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">The Impact of Blockchain on Financial Services</h3>
+      
+                  <p class="blog-text">
+                    Explore how blockchain technology is revolutionizing financial services and its implications for the future.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="AI and Machine Learning Applications in Healthcare" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">AI</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-20">June 20, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">AI and Machine Learning Applications in Healthcare</h3>
+      
+                  <p class="blog-text">
+                    Explore the transformative impact of AI and machine learning technologies on healthcare delivery and patient outcomes.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d679.3181182834037!2d10.224261918265768!3d36.86366414576428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cafa7cc5e0ad%3A0x4aee95b08ff55df7!2sSoukra%2C%20Tunisia!5e0!3m2!1sen!2sus!4v1647608970568!5m2!1sen!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
